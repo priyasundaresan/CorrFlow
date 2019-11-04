@@ -36,7 +36,10 @@ def greyscale_preprocess(image):
     return torch.Tensor(processed)
 
 def quantized_color_preprocess(image, centroids):
-    h, w, c = image.shape
+    try:
+    	h, w, c = image.shape
+    except:
+        h, w = image.shape
 
     image = cv2.cvtColor(image, cv2.COLOR_BGR2Lab)
     ab = image[:,:,1:]
@@ -55,7 +58,8 @@ class myImageFloder(data.Dataset):
         self.filepath = filepath
         self.training = training
         self.p_2 = 0.1             # probability of random perturbation
-        self.centroids = np.load('datas/centroids/centroids_16k_kinetics_10000samples.npy')
+        #self.centroids = np.load('datas/centroids/centroids_16k_kinetics_10000samples.npy')
+        self.centroids = np.load('datas/centroids/rope_centroids.npy')
 
     def __getitem__(self, index):
         refs = self.refs[index]

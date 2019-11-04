@@ -1,0 +1,269 @@
+[2019-10-31 00:10:39 main.py:46] INFO     bsize: 6
+[2019-10-31 00:10:39 main.py:46] INFO     csvpath: datas/kinetics.csv
+[2019-10-31 00:10:39 main.py:46] INFO     datapath: /datasets/kinetics_jpg/
+[2019-10-31 00:10:39 main.py:46] INFO     epochs: 10
+[2019-10-31 00:10:39 main.py:46] INFO     lr: 0.0002
+[2019-10-31 00:10:39 main.py:46] INFO     resume: None
+[2019-10-31 00:10:39 main.py:46] INFO     savepath: results/test
+[2019-10-31 00:10:39 main.py:46] INFO     worker: 8
+[2019-10-31 00:10:55 main_oxuva.py:47] INFO     bsize: 6
+[2019-10-31 00:10:55 main_oxuva.py:47] INFO     csvpath: datas/oxuva.csv
+[2019-10-31 00:10:55 main_oxuva.py:47] INFO     datapath: /scratch/local/ramdisk/zlai/oxuva/all/
+[2019-10-31 00:10:55 main_oxuva.py:47] INFO     epochs: 10
+[2019-10-31 00:10:55 main_oxuva.py:47] INFO     lr: 0.0002
+[2019-10-31 00:10:55 main_oxuva.py:47] INFO     resume: None
+[2019-10-31 00:10:55 main_oxuva.py:47] INFO     savepath: results/test
+[2019-10-31 00:10:55 main_oxuva.py:47] INFO     worker: 8
+[2019-10-31 00:11:14 benchmark.py:24] INFO     datapath: None
+[2019-10-31 00:11:14 benchmark.py:24] INFO     resume: None
+[2019-10-31 00:11:14 benchmark.py:24] INFO     savepath: results/test
+[2019-10-31 00:28:59 main.py:46] INFO     bsize: 6
+[2019-10-31 00:28:59 main.py:46] INFO     csvpath: datas/kinetics.csv
+[2019-10-31 00:28:59 main.py:46] INFO     datapath: /datasets/kinetics_jpg/
+[2019-10-31 00:28:59 main.py:46] INFO     epochs: 10
+[2019-10-31 00:28:59 main.py:46] INFO     lr: 0.0002
+[2019-10-31 00:28:59 main.py:46] INFO     resume: None
+[2019-10-31 00:28:59 main.py:46] INFO     savepath: results/test
+[2019-10-31 00:28:59 main.py:46] INFO     worker: 8
+[2019-10-31 00:51:53 main.py:46] INFO     bsize: 6
+[2019-10-31 00:51:53 main.py:46] INFO     csvpath: datas/kinetics.csv
+[2019-10-31 00:51:53 main.py:46] INFO     datapath: /datasets/kinetics_jpg/
+[2019-10-31 00:51:53 main.py:46] INFO     epochs: 10
+[2019-10-31 00:51:53 main.py:46] INFO     lr: 0.0002
+[2019-10-31 00:51:53 main.py:46] INFO     resume: None
+[2019-10-31 00:51:53 main.py:46] INFO     savepath: results/test
+[2019-10-31 00:51:53 main.py:46] INFO     worker: 8
+[2019-11-04 09:18:46 main_oxuva.py:50] INFO     bsize: 6
+[2019-11-04 09:18:46 main_oxuva.py:50] INFO     csvpath: /home/priya/code/datas/rope.csv
+[2019-11-04 09:18:46 main_oxuva.py:50] INFO     datapath: /home/priya/code/data_volume/corrflow/rope_dset
+[2019-11-04 09:18:46 main_oxuva.py:50] INFO     epochs: 10
+[2019-11-04 09:18:46 main_oxuva.py:50] INFO     gpu: 4,5,6
+[2019-11-04 09:18:46 main_oxuva.py:50] INFO     lr: 0.0002
+[2019-11-04 09:18:46 main_oxuva.py:50] INFO     resume: None
+[2019-11-04 09:18:46 main_oxuva.py:50] INFO     savepath: results/test
+[2019-11-04 09:18:46 main_oxuva.py:50] INFO     worker: 8
+[2019-11-04 09:18:55 main_oxuva.py:63] INFO     Number of model parameters: 5291648
+[2019-11-04 09:18:55 main_oxuva.py:76] INFO     => No checkpoint file. Start from scratch.
+[2019-11-04 09:18:55 main_oxuva.py:81] INFO     This is 0-th epoch
+[2019-11-04 09:19:13 main_oxuva.py:117] INFO     Epoch0 [0/42] Loss = -0.00000004(-0.00000004) T=16.17  LR=0.000200
+[2019-11-04 09:19:13 main_oxuva.py:117] INFO     Epoch0 [1/42] Loss = -0.00000001(-0.00000002) T=0.63  LR=0.000200
+[2019-11-04 09:19:14 main_oxuva.py:117] INFO     Epoch0 [2/42] Loss = -0.00000003(-0.00000003) T=0.62  LR=0.000200
+[2019-11-04 09:19:15 main_oxuva.py:117] INFO     Epoch0 [3/42] Loss = -0.00000006(-0.00000003) T=0.63  LR=0.000200
+[2019-11-04 09:19:15 main_oxuva.py:117] INFO     Epoch0 [4/42] Loss = -0.00000004(-0.00000004) T=0.68  LR=0.000200
+[2019-11-04 09:19:16 main_oxuva.py:117] INFO     Epoch0 [5/42] Loss = -0.00000007(-0.00000004) T=0.62  LR=0.000200
+[2019-11-04 09:19:16 main_oxuva.py:117] INFO     Epoch0 [6/42] Loss = -0.00000004(-0.00000004) T=0.59  LR=0.000200
+[2019-11-04 09:19:17 main_oxuva.py:117] INFO     Epoch0 [7/42] Loss = -0.00000002(-0.00000004) T=0.60  LR=0.000200
+[2019-11-04 09:19:18 main_oxuva.py:117] INFO     Epoch0 [8/42] Loss = -0.00000002(-0.00000004) T=0.57  LR=0.000200
+[2019-11-04 09:19:18 main_oxuva.py:117] INFO     Epoch0 [9/42] Loss = -0.00000002(-0.00000003) T=0.60  LR=0.000200
+[2019-11-04 09:19:19 main_oxuva.py:117] INFO     Epoch0 [10/42] Loss = -0.00000003(-0.00000003) T=0.64  LR=0.000200
+[2019-11-04 09:19:20 main_oxuva.py:117] INFO     Epoch0 [11/42] Loss = -0.00000001(-0.00000003) T=0.63  LR=0.000200
+[2019-11-04 09:19:20 main_oxuva.py:117] INFO     Epoch0 [12/42] Loss = -0.00000003(-0.00000003) T=0.61  LR=0.000200
+[2019-11-04 09:19:21 main_oxuva.py:117] INFO     Epoch0 [13/42] Loss = -0.00000001(-0.00000003) T=0.69  LR=0.000200
+[2019-11-04 09:19:22 main_oxuva.py:117] INFO     Epoch0 [14/42] Loss = -0.00000002(-0.00000003) T=0.68  LR=0.000200
+[2019-11-04 09:19:22 main_oxuva.py:117] INFO     Epoch0 [15/42] Loss = -0.00000011(-0.00000003) T=0.62  LR=0.000200
+[2019-11-04 09:19:23 main_oxuva.py:117] INFO     Epoch0 [16/42] Loss = -0.00000004(-0.00000003) T=0.69  LR=0.000200
+[2019-11-04 09:19:24 main_oxuva.py:117] INFO     Epoch0 [17/42] Loss = -0.00000010(-0.00000004) T=0.64  LR=0.000200
+[2019-11-04 09:19:24 main_oxuva.py:117] INFO     Epoch0 [18/42] Loss = -0.00000004(-0.00000004) T=0.67  LR=0.000200
+[2019-11-04 09:19:25 main_oxuva.py:117] INFO     Epoch0 [19/42] Loss = -0.00000003(-0.00000004) T=0.64  LR=0.000200
+[2019-11-04 09:19:26 main_oxuva.py:117] INFO     Epoch0 [20/42] Loss = -0.00000002(-0.00000004) T=0.68  LR=0.000200
+[2019-11-04 09:19:26 main_oxuva.py:117] INFO     Epoch0 [21/42] Loss = -0.00000002(-0.00000004) T=0.64  LR=0.000200
+[2019-11-04 09:19:27 main_oxuva.py:117] INFO     Epoch0 [22/42] Loss = -0.00000002(-0.00000004) T=0.61  LR=0.000200
+[2019-11-04 09:19:27 main_oxuva.py:117] INFO     Epoch0 [23/42] Loss = -0.00000002(-0.00000004) T=0.61  LR=0.000200
+[2019-11-04 09:19:28 main_oxuva.py:117] INFO     Epoch0 [24/42] Loss = -0.00000002(-0.00000003) T=0.66  LR=0.000200
+[2019-11-04 09:19:29 main_oxuva.py:117] INFO     Epoch0 [25/42] Loss = -0.00000001(-0.00000003) T=0.65  LR=0.000200
+[2019-11-04 09:19:29 main_oxuva.py:117] INFO     Epoch0 [26/42] Loss = -0.00000003(-0.00000003) T=0.65  LR=0.000200
+[2019-11-04 09:19:30 main_oxuva.py:117] INFO     Epoch0 [27/42] Loss = -0.00000003(-0.00000003) T=0.62  LR=0.000200
+[2019-11-04 09:19:31 main_oxuva.py:117] INFO     Epoch0 [28/42] Loss = -0.00000004(-0.00000003) T=0.63  LR=0.000200
+[2019-11-04 09:19:31 main_oxuva.py:117] INFO     Epoch0 [29/42] Loss = -0.00000003(-0.00000003) T=0.59  LR=0.000200
+[2019-11-04 09:19:32 main_oxuva.py:117] INFO     Epoch0 [30/42] Loss = -0.00000004(-0.00000003) T=0.60  LR=0.000200
+[2019-11-04 09:19:33 main_oxuva.py:117] INFO     Epoch0 [31/42] Loss = -0.00000006(-0.00000003) T=0.62  LR=0.000200
+[2019-11-04 09:19:33 main_oxuva.py:117] INFO     Epoch0 [32/42] Loss = -0.00000005(-0.00000003) T=0.58  LR=0.000200
+[2019-11-04 09:19:34 main_oxuva.py:117] INFO     Epoch0 [33/42] Loss = -0.00000007(-0.00000004) T=0.63  LR=0.000200
+[2019-11-04 09:19:34 main_oxuva.py:117] INFO     Epoch0 [34/42] Loss = -0.00000004(-0.00000004) T=0.64  LR=0.000200
+[2019-11-04 09:19:35 main_oxuva.py:117] INFO     Epoch0 [35/42] Loss = -0.00000003(-0.00000004) T=0.62  LR=0.000200
+[2019-11-04 09:19:36 main_oxuva.py:117] INFO     Epoch0 [36/42] Loss = -0.00000005(-0.00000004) T=0.61  LR=0.000200
+[2019-11-04 09:19:36 main_oxuva.py:117] INFO     Epoch0 [37/42] Loss = -0.00000003(-0.00000004) T=0.63  LR=0.000200
+[2019-11-04 09:19:37 main_oxuva.py:117] INFO     Epoch0 [38/42] Loss = -0.00000002(-0.00000004) T=0.59  LR=0.000200
+[2019-11-04 09:19:38 main_oxuva.py:117] INFO     Epoch0 [39/42] Loss = -0.00000009(-0.00000004) T=0.62  LR=0.000200
+[2019-11-04 09:19:38 main_oxuva.py:117] INFO     Epoch0 [40/42] Loss = -0.00000002(-0.00000004) T=0.61  LR=0.000200
+[2019-11-04 09:19:39 main_oxuva.py:117] INFO     Epoch0 [41/42] Loss = -0.00000002(-0.00000004) T=0.62  LR=0.000200
+[2019-11-04 09:19:39 main_oxuva.py:81] INFO     This is 1-th epoch
+[2019-11-04 09:19:43 main_oxuva.py:117] INFO     Epoch1 [0/42] Loss = -0.00000001(-0.00000001) T=0.66  LR=0.000200
+[2019-11-04 09:19:43 main_oxuva.py:117] INFO     Epoch1 [1/42] Loss = -0.00000001(-0.00000001) T=0.67  LR=0.000200
+[2019-11-04 09:19:44 main_oxuva.py:117] INFO     Epoch1 [2/42] Loss = -0.00000002(-0.00000001) T=0.67  LR=0.000200
+[2019-11-04 09:19:45 main_oxuva.py:117] INFO     Epoch1 [3/42] Loss = -0.00000007(-0.00000003) T=0.63  LR=0.000200
+[2019-11-04 09:19:45 main_oxuva.py:117] INFO     Epoch1 [4/42] Loss = -0.00000000(-0.00000002) T=0.61  LR=0.000200
+[2019-11-04 09:19:46 main_oxuva.py:117] INFO     Epoch1 [5/42] Loss = -0.00000002(-0.00000002) T=0.63  LR=0.000200
+[2019-11-04 09:19:47 main_oxuva.py:117] INFO     Epoch1 [6/42] Loss = -0.00000002(-0.00000002) T=0.65  LR=0.000200
+[2019-11-04 09:19:47 main_oxuva.py:117] INFO     Epoch1 [7/42] Loss = -0.00000005(-0.00000002) T=0.62  LR=0.000200
+[2019-11-04 09:19:48 main_oxuva.py:117] INFO     Epoch1 [8/42] Loss = -0.00000008(-0.00000003) T=0.66  LR=0.000200
+[2019-11-04 09:19:49 main_oxuva.py:117] INFO     Epoch1 [9/42] Loss = -0.00000003(-0.00000003) T=0.65  LR=0.000200
+[2019-11-04 09:19:49 main_oxuva.py:117] INFO     Epoch1 [10/42] Loss = -0.00000007(-0.00000003) T=0.68  LR=0.000200
+[2019-11-04 09:19:50 main_oxuva.py:117] INFO     Epoch1 [11/42] Loss = -0.00000002(-0.00000003) T=0.63  LR=0.000200
+[2019-11-04 09:19:51 main_oxuva.py:117] INFO     Epoch1 [12/42] Loss = -0.00000003(-0.00000003) T=0.59  LR=0.000200
+[2019-11-04 09:19:51 main_oxuva.py:117] INFO     Epoch1 [13/42] Loss = -0.00000003(-0.00000003) T=0.70  LR=0.000200
+[2019-11-04 09:19:52 main_oxuva.py:117] INFO     Epoch1 [14/42] Loss = -0.00000003(-0.00000003) T=0.64  LR=0.000200
+[2019-11-04 09:19:53 main_oxuva.py:117] INFO     Epoch1 [15/42] Loss = -0.00000008(-0.00000003) T=0.62  LR=0.000200
+[2019-11-04 09:19:53 main_oxuva.py:117] INFO     Epoch1 [16/42] Loss = -0.00000003(-0.00000003) T=0.60  LR=0.000200
+[2019-11-04 09:19:54 main_oxuva.py:117] INFO     Epoch1 [17/42] Loss = -0.00000004(-0.00000004) T=0.64  LR=0.000200
+[2019-11-04 09:19:54 main_oxuva.py:117] INFO     Epoch1 [18/42] Loss = -0.00000004(-0.00000004) T=0.61  LR=0.000200
+[2019-11-04 09:19:55 main_oxuva.py:117] INFO     Epoch1 [19/42] Loss = -0.00000005(-0.00000004) T=0.60  LR=0.000200
+[2019-11-04 09:19:56 main_oxuva.py:117] INFO     Epoch1 [20/42] Loss = -0.00000003(-0.00000004) T=0.64  LR=0.000200
+[2019-11-04 09:19:56 main_oxuva.py:117] INFO     Epoch1 [21/42] Loss = -0.00000003(-0.00000004) T=0.66  LR=0.000200
+[2019-11-04 09:19:57 main_oxuva.py:117] INFO     Epoch1 [22/42] Loss = -0.00000003(-0.00000003) T=0.66  LR=0.000200
+[2019-11-04 09:19:58 main_oxuva.py:117] INFO     Epoch1 [23/42] Loss = -0.00000004(-0.00000003) T=0.65  LR=0.000200
+[2019-11-04 09:19:58 main_oxuva.py:117] INFO     Epoch1 [24/42] Loss = -0.00000003(-0.00000003) T=0.62  LR=0.000200
+[2019-11-04 09:19:59 main_oxuva.py:117] INFO     Epoch1 [25/42] Loss = -0.00000002(-0.00000003) T=0.59  LR=0.000200
+[2019-11-04 09:20:00 main_oxuva.py:117] INFO     Epoch1 [26/42] Loss = -0.00000004(-0.00000003) T=0.64  LR=0.000200
+[2019-11-04 09:20:00 main_oxuva.py:117] INFO     Epoch1 [27/42] Loss = -0.00000002(-0.00000003) T=0.59  LR=0.000200
+[2019-11-04 09:20:01 main_oxuva.py:117] INFO     Epoch1 [28/42] Loss = -0.00000006(-0.00000003) T=0.58  LR=0.000200
+[2019-11-04 09:20:01 main_oxuva.py:117] INFO     Epoch1 [29/42] Loss = -0.00000000(-0.00000003) T=0.65  LR=0.000200
+[2019-11-04 09:20:02 main_oxuva.py:117] INFO     Epoch1 [30/42] Loss = -0.00000003(-0.00000003) T=0.60  LR=0.000200
+[2019-11-04 09:20:03 main_oxuva.py:117] INFO     Epoch1 [31/42] Loss = -0.00000002(-0.00000003) T=0.60  LR=0.000200
+[2019-11-04 09:20:03 main_oxuva.py:117] INFO     Epoch1 [32/42] Loss = -0.00000002(-0.00000003) T=0.65  LR=0.000200
+[2019-11-04 09:20:04 main_oxuva.py:117] INFO     Epoch1 [33/42] Loss = -0.00000002(-0.00000003) T=0.59  LR=0.000200
+[2019-11-04 09:20:04 main_oxuva.py:117] INFO     Epoch1 [34/42] Loss = -0.00000004(-0.00000003) T=0.57  LR=0.000200
+[2019-11-04 09:20:05 main_oxuva.py:117] INFO     Epoch1 [35/42] Loss = -0.00000005(-0.00000003) T=0.61  LR=0.000200
+[2019-11-04 09:20:06 main_oxuva.py:117] INFO     Epoch1 [36/42] Loss = -0.00000003(-0.00000003) T=0.63  LR=0.000200
+[2019-11-04 09:20:06 main_oxuva.py:117] INFO     Epoch1 [37/42] Loss = -0.00000004(-0.00000003) T=0.60  LR=0.000200
+[2019-11-04 09:20:07 main_oxuva.py:117] INFO     Epoch1 [38/42] Loss = -0.00000005(-0.00000003) T=0.65  LR=0.000200
+[2019-11-04 09:20:08 main_oxuva.py:117] INFO     Epoch1 [39/42] Loss = -0.00000008(-0.00000003) T=0.62  LR=0.000200
+[2019-11-04 09:20:08 main_oxuva.py:117] INFO     Epoch1 [40/42] Loss = -0.00000009(-0.00000004) T=0.62  LR=0.000200
+[2019-11-04 09:20:09 main_oxuva.py:117] INFO     Epoch1 [41/42] Loss = -0.00000008(-0.00000004) T=0.64  LR=0.000200
+[2019-11-04 09:20:09 main_oxuva.py:81] INFO     This is 2-th epoch
+[2019-11-04 09:20:14 main_oxuva.py:117] INFO     Epoch2 [0/42] Loss = -0.00000005(-0.00000005) T=0.64  LR=0.000200
+[2019-11-04 09:20:14 main_oxuva.py:117] INFO     Epoch2 [1/42] Loss = -0.00000008(-0.00000007) T=0.61  LR=0.000200
+[2019-11-04 09:20:15 main_oxuva.py:117] INFO     Epoch2 [2/42] Loss = -0.00000006(-0.00000007) T=0.66  LR=0.000200
+[2019-11-04 09:20:16 main_oxuva.py:117] INFO     Epoch2 [3/42] Loss = -0.00000007(-0.00000007) T=0.66  LR=0.000200
+[2019-11-04 09:20:16 main_oxuva.py:117] INFO     Epoch2 [4/42] Loss = -0.00000005(-0.00000006) T=0.61  LR=0.000200
+[2019-11-04 09:20:17 main_oxuva.py:117] INFO     Epoch2 [5/42] Loss = -0.00000007(-0.00000006) T=0.64  LR=0.000200
+[2019-11-04 09:20:18 main_oxuva.py:117] INFO     Epoch2 [6/42] Loss = -0.00000003(-0.00000006) T=0.62  LR=0.000200
+[2019-11-04 09:20:18 main_oxuva.py:117] INFO     Epoch2 [7/42] Loss = -0.00000004(-0.00000006) T=0.66  LR=0.000200
+[2019-11-04 09:20:19 main_oxuva.py:117] INFO     Epoch2 [8/42] Loss = -0.00000004(-0.00000005) T=0.64  LR=0.000200
+[2019-11-04 09:20:20 main_oxuva.py:117] INFO     Epoch2 [9/42] Loss = -0.00000003(-0.00000005) T=0.64  LR=0.000200
+[2019-11-04 09:20:20 main_oxuva.py:117] INFO     Epoch2 [10/42] Loss = -0.00000005(-0.00000005) T=0.66  LR=0.000200
+[2019-11-04 09:20:21 main_oxuva.py:117] INFO     Epoch2 [11/42] Loss = -0.00000007(-0.00000005) T=0.62  LR=0.000200
+[2019-11-04 09:20:22 main_oxuva.py:117] INFO     Epoch2 [12/42] Loss = -0.00000005(-0.00000005) T=0.64  LR=0.000200
+[2019-11-04 09:20:22 main_oxuva.py:117] INFO     Epoch2 [13/42] Loss = -0.00000002(-0.00000005) T=0.60  LR=0.000200
+[2019-11-04 09:20:23 main_oxuva.py:117] INFO     Epoch2 [14/42] Loss = -0.00000002(-0.00000005) T=0.63  LR=0.000200
+[2019-11-04 09:20:23 main_oxuva.py:117] INFO     Epoch2 [15/42] Loss = -0.00000003(-0.00000005) T=0.62  LR=0.000200
+[2019-11-04 09:20:24 main_oxuva.py:117] INFO     Epoch2 [16/42] Loss = -0.00000004(-0.00000005) T=0.61  LR=0.000200
+[2019-11-04 09:20:25 main_oxuva.py:117] INFO     Epoch2 [17/42] Loss = -0.00000006(-0.00000005) T=0.64  LR=0.000200
+[2019-11-04 09:20:25 main_oxuva.py:117] INFO     Epoch2 [18/42] Loss = -0.00000010(-0.00000005) T=0.67  LR=0.000200
+[2019-11-04 09:20:26 main_oxuva.py:117] INFO     Epoch2 [19/42] Loss = -0.00000008(-0.00000005) T=0.64  LR=0.000200
+[2019-11-04 09:20:27 main_oxuva.py:117] INFO     Epoch2 [20/42] Loss = -0.00000009(-0.00000005) T=0.65  LR=0.000200
+[2019-11-04 09:20:27 main_oxuva.py:117] INFO     Epoch2 [21/42] Loss = -0.00000014(-0.00000006) T=0.62  LR=0.000200
+[2019-11-04 09:20:28 main_oxuva.py:117] INFO     Epoch2 [22/42] Loss = -0.00000008(-0.00000006) T=0.67  LR=0.000200
+[2019-11-04 09:20:29 main_oxuva.py:117] INFO     Epoch2 [23/42] Loss = -0.00000005(-0.00000006) T=0.68  LR=0.000200
+[2019-11-04 09:20:29 main_oxuva.py:117] INFO     Epoch2 [24/42] Loss = -0.00000000(-0.00000006) T=0.61  LR=0.000200
+[2019-11-04 09:20:30 main_oxuva.py:117] INFO     Epoch2 [25/42] Loss = -0.00000002(-0.00000005) T=0.64  LR=0.000200
+[2019-11-04 09:20:31 main_oxuva.py:117] INFO     Epoch2 [26/42] Loss = -0.00000001(-0.00000005) T=0.59  LR=0.000200
+[2019-11-04 09:20:31 main_oxuva.py:117] INFO     Epoch2 [27/42] Loss = -0.00000002(-0.00000005) T=0.59  LR=0.000200
+[2019-11-04 09:20:32 main_oxuva.py:117] INFO     Epoch2 [28/42] Loss = -0.00000005(-0.00000005) T=0.60  LR=0.000200
+[2019-11-04 09:20:32 main_oxuva.py:117] INFO     Epoch2 [29/42] Loss = -0.00000004(-0.00000005) T=0.60  LR=0.000200
+[2019-11-04 09:20:33 main_oxuva.py:117] INFO     Epoch2 [30/42] Loss = -0.00000003(-0.00000005) T=0.58  LR=0.000200
+[2019-11-04 09:20:34 main_oxuva.py:117] INFO     Epoch2 [31/42] Loss = 0.00000001(-0.00000005) T=0.62  LR=0.000200
+[2019-11-04 09:20:34 main_oxuva.py:117] INFO     Epoch2 [32/42] Loss = -0.00000001(-0.00000005) T=0.58  LR=0.000200
+[2019-11-04 09:20:35 main_oxuva.py:117] INFO     Epoch2 [33/42] Loss = -0.00000004(-0.00000005) T=0.64  LR=0.000200
+[2019-11-04 09:20:36 main_oxuva.py:117] INFO     Epoch2 [34/42] Loss = -0.00000004(-0.00000005) T=0.61  LR=0.000200
+[2019-11-04 09:20:36 main_oxuva.py:117] INFO     Epoch2 [35/42] Loss = -0.00000002(-0.00000005) T=0.62  LR=0.000200
+[2019-11-04 09:20:37 main_oxuva.py:117] INFO     Epoch2 [36/42] Loss = -0.00000003(-0.00000005) T=0.58  LR=0.000200
+[2019-11-04 09:20:37 main_oxuva.py:117] INFO     Epoch2 [37/42] Loss = -0.00000002(-0.00000004) T=0.61  LR=0.000200
+[2019-11-04 09:20:38 main_oxuva.py:117] INFO     Epoch2 [38/42] Loss = -0.00000003(-0.00000004) T=0.57  LR=0.000200
+[2019-11-04 09:20:39 main_oxuva.py:117] INFO     Epoch2 [39/42] Loss = -0.00000001(-0.00000004) T=0.58  LR=0.000200
+[2019-11-04 09:20:39 main_oxuva.py:117] INFO     Epoch2 [40/42] Loss = -0.00000003(-0.00000004) T=0.63  LR=0.000200
+[2019-11-04 09:20:40 main_oxuva.py:117] INFO     Epoch2 [41/42] Loss = -0.00000003(-0.00000004) T=0.59  LR=0.000200
+[2019-11-04 09:20:40 main_oxuva.py:81] INFO     This is 3-th epoch
+[2019-11-04 09:20:45 main_oxuva.py:117] INFO     Epoch3 [0/42] Loss = -0.00000002(-0.00000002) T=0.64  LR=0.000200
+[2019-11-04 09:20:45 main_oxuva.py:117] INFO     Epoch3 [1/42] Loss = -0.00000010(-0.00000006) T=0.58  LR=0.000200
+[2019-11-04 09:20:46 main_oxuva.py:117] INFO     Epoch3 [2/42] Loss = -0.00000010(-0.00000007) T=0.61  LR=0.000200
+[2019-11-04 09:20:47 main_oxuva.py:117] INFO     Epoch3 [3/42] Loss = -0.00000006(-0.00000007) T=0.61  LR=0.000200
+[2019-11-04 09:20:47 main_oxuva.py:117] INFO     Epoch3 [4/42] Loss = -0.00000008(-0.00000007) T=0.65  LR=0.000200
+[2019-11-04 09:20:48 main_oxuva.py:117] INFO     Epoch3 [5/42] Loss = -0.00000006(-0.00000007) T=0.60  LR=0.000200
+[2019-11-04 09:20:48 main_oxuva.py:117] INFO     Epoch3 [6/42] Loss = -0.00000004(-0.00000007) T=0.60  LR=0.000200
+[2019-11-04 09:20:49 main_oxuva.py:117] INFO     Epoch3 [7/42] Loss = -0.00000007(-0.00000007) T=0.60  LR=0.000200
+[2019-11-04 09:20:50 main_oxuva.py:117] INFO     Epoch3 [8/42] Loss = -0.00000007(-0.00000007) T=0.61  LR=0.000200
+[2019-11-04 09:20:50 main_oxuva.py:117] INFO     Epoch3 [9/42] Loss = -0.00000002(-0.00000006) T=0.62  LR=0.000200
+[2019-11-04 09:20:51 main_oxuva.py:117] INFO     Epoch3 [10/42] Loss = -0.00000001(-0.00000006) T=0.64  LR=0.000200
+[2019-11-04 09:20:52 main_oxuva.py:117] INFO     Epoch3 [11/42] Loss = -0.00000002(-0.00000005) T=0.65  LR=0.000200
+[2019-11-04 09:20:52 main_oxuva.py:117] INFO     Epoch3 [12/42] Loss = -0.00000005(-0.00000005) T=0.63  LR=0.000200
+[2019-11-04 09:20:53 main_oxuva.py:117] INFO     Epoch3 [13/42] Loss = -0.00000002(-0.00000005) T=0.66  LR=0.000200
+[2019-11-04 09:20:53 main_oxuva.py:117] INFO     Epoch3 [14/42] Loss = -0.00000003(-0.00000005) T=0.63  LR=0.000200
+[2019-11-04 09:20:54 main_oxuva.py:117] INFO     Epoch3 [15/42] Loss = -0.00000003(-0.00000005) T=0.59  LR=0.000200
+[2019-11-04 09:20:55 main_oxuva.py:117] INFO     Epoch3 [16/42] Loss = -0.00000008(-0.00000005) T=0.65  LR=0.000200
+[2019-11-04 09:20:55 main_oxuva.py:117] INFO     Epoch3 [17/42] Loss = -0.00000005(-0.00000005) T=0.58  LR=0.000200
+[2019-11-04 09:20:56 main_oxuva.py:117] INFO     Epoch3 [18/42] Loss = -0.00000003(-0.00000005) T=0.64  LR=0.000200
+[2019-11-04 09:20:57 main_oxuva.py:117] INFO     Epoch3 [19/42] Loss = -0.00000007(-0.00000005) T=0.66  LR=0.000200
+[2019-11-04 09:20:57 main_oxuva.py:117] INFO     Epoch3 [20/42] Loss = -0.00000004(-0.00000005) T=0.61  LR=0.000200
+[2019-11-04 09:20:58 main_oxuva.py:117] INFO     Epoch3 [21/42] Loss = -0.00000011(-0.00000005) T=0.62  LR=0.000200
+[2019-11-04 09:20:59 main_oxuva.py:117] INFO     Epoch3 [22/42] Loss = -0.00000002(-0.00000005) T=0.63  LR=0.000200
+[2019-11-04 09:20:59 main_oxuva.py:117] INFO     Epoch3 [23/42] Loss = -0.00000004(-0.00000005) T=0.62  LR=0.000200
+[2019-11-04 09:21:00 main_oxuva.py:117] INFO     Epoch3 [24/42] Loss = -0.00000005(-0.00000005) T=0.61  LR=0.000200
+[2019-11-04 09:21:00 main_oxuva.py:117] INFO     Epoch3 [25/42] Loss = -0.00000001(-0.00000005) T=0.67  LR=0.000200
+[2019-11-04 09:21:01 main_oxuva.py:117] INFO     Epoch3 [26/42] Loss = -0.00000003(-0.00000005) T=0.61  LR=0.000200
+[2019-11-04 09:21:02 main_oxuva.py:117] INFO     Epoch3 [27/42] Loss = -0.00000011(-0.00000005) T=0.58  LR=0.000200
+[2019-11-04 09:21:02 main_oxuva.py:117] INFO     Epoch3 [28/42] Loss = -0.00000012(-0.00000005) T=0.58  LR=0.000200
+[2019-11-04 09:21:03 main_oxuva.py:117] INFO     Epoch3 [29/42] Loss = -0.00000013(-0.00000005) T=0.58  LR=0.000200
+[2019-11-04 09:21:03 main_oxuva.py:117] INFO     Epoch3 [30/42] Loss = -0.00000009(-0.00000006) T=0.60  LR=0.000200
+[2019-11-04 09:21:04 main_oxuva.py:117] INFO     Epoch3 [31/42] Loss = -0.00000007(-0.00000006) T=0.58  LR=0.000200
+[2019-11-04 09:21:05 main_oxuva.py:117] INFO     Epoch3 [32/42] Loss = -0.00000006(-0.00000006) T=0.59  LR=0.000200
+[2019-11-04 09:21:05 main_oxuva.py:117] INFO     Epoch3 [33/42] Loss = -0.00000004(-0.00000006) T=0.59  LR=0.000200
+[2019-11-04 09:21:06 main_oxuva.py:117] INFO     Epoch3 [34/42] Loss = -0.00000004(-0.00000006) T=0.57  LR=0.000200
+[2019-11-04 09:21:06 main_oxuva.py:117] INFO     Epoch3 [35/42] Loss = -0.00000001(-0.00000005) T=0.61  LR=0.000200
+[2019-11-04 09:21:07 main_oxuva.py:117] INFO     Epoch3 [36/42] Loss = -0.00000003(-0.00000005) T=0.60  LR=0.000200
+[2019-11-04 09:21:08 main_oxuva.py:117] INFO     Epoch3 [37/42] Loss = -0.00000004(-0.00000005) T=0.59  LR=0.000200
+[2019-11-04 09:21:08 main_oxuva.py:117] INFO     Epoch3 [38/42] Loss = -0.00000007(-0.00000005) T=0.60  LR=0.000200
+[2019-11-04 09:21:09 main_oxuva.py:117] INFO     Epoch3 [39/42] Loss = 0.00000002(-0.00000005) T=0.61  LR=0.000200
+[2019-11-04 09:21:09 main_oxuva.py:117] INFO     Epoch3 [40/42] Loss = -0.00000008(-0.00000005) T=0.58  LR=0.000200
+[2019-11-04 09:21:17 main_oxuva.py:50] INFO     bsize: 6
+[2019-11-04 09:21:17 main_oxuva.py:50] INFO     csvpath: /home/priya/code/datas/rope.csv
+[2019-11-04 09:21:17 main_oxuva.py:50] INFO     datapath: /home/priya/code/data_volume/corrflow/rope_dset
+[2019-11-04 09:21:17 main_oxuva.py:50] INFO     epochs: 10
+[2019-11-04 09:21:17 main_oxuva.py:50] INFO     gpu: 4,5,6
+[2019-11-04 09:21:17 main_oxuva.py:50] INFO     lr: 0.0002
+[2019-11-04 09:21:17 main_oxuva.py:50] INFO     resume: None
+[2019-11-04 09:21:17 main_oxuva.py:50] INFO     savepath: results/test
+[2019-11-04 09:21:17 main_oxuva.py:50] INFO     worker: 8
+[2019-11-04 09:21:48 main_oxuva.py:50] INFO     bsize: 6
+[2019-11-04 09:21:48 main_oxuva.py:50] INFO     csvpath: /home/priya/code/datas/rope.csv
+[2019-11-04 09:21:48 main_oxuva.py:50] INFO     datapath: /home/priya/code/data_volume/corrflow/rope_dset
+[2019-11-04 09:21:48 main_oxuva.py:50] INFO     epochs: 10
+[2019-11-04 09:21:48 main_oxuva.py:50] INFO     gpu: 4,5,6
+[2019-11-04 09:21:48 main_oxuva.py:50] INFO     lr: 0.0002
+[2019-11-04 09:21:48 main_oxuva.py:50] INFO     resume: None
+[2019-11-04 09:21:48 main_oxuva.py:50] INFO     savepath: results/test
+[2019-11-04 09:21:48 main_oxuva.py:50] INFO     worker: 8
+[2019-11-04 09:21:55 main_oxuva.py:63] INFO     Number of model parameters: 5291648
+[2019-11-04 09:21:55 main_oxuva.py:76] INFO     => No checkpoint file. Start from scratch.
+[2019-11-04 09:21:55 main_oxuva.py:81] INFO     This is 0-th epoch
+[2019-11-04 09:22:22 main_oxuva.py:117] INFO     Epoch0 [0/42] Loss = 3.12292480(3.12292480) T=25.15  LR=0.000200
+[2019-11-04 09:22:23 main_oxuva.py:117] INFO     Epoch0 [1/42] Loss = 0.70147812(1.91220146) T=1.75  LR=0.000200
+[2019-11-04 09:22:25 main_oxuva.py:117] INFO     Epoch0 [2/42] Loss = 0.78689933(1.53710075) T=1.90  LR=0.000200
+[2019-11-04 09:22:27 main_oxuva.py:117] INFO     Epoch0 [3/42] Loss = 1.04850829(1.41495264) T=1.83  LR=0.000200
+[2019-11-04 09:22:29 main_oxuva.py:117] INFO     Epoch0 [4/42] Loss = 0.67065215(1.26609254) T=1.69  LR=0.000200
+[2019-11-04 09:22:30 main_oxuva.py:117] INFO     Epoch0 [5/42] Loss = 0.68188614(1.16872481) T=1.59  LR=0.000200
+[2019-11-04 09:22:33 main_oxuva.py:117] INFO     Epoch0 [6/42] Loss = 0.43670696(1.06415083) T=2.02  LR=0.000200
+[2019-11-04 09:22:34 main_oxuva.py:117] INFO     Epoch0 [7/42] Loss = 0.72728896(1.02204309) T=1.74  LR=0.000200
+[2019-11-04 09:22:36 main_oxuva.py:117] INFO     Epoch0 [8/42] Loss = 0.46824363(0.96050982) T=1.43  LR=0.000200
+[2019-11-04 09:22:37 main_oxuva.py:117] INFO     Epoch0 [9/42] Loss = 0.65985632(0.93044447) T=1.21  LR=0.000200
+[2019-11-04 09:22:38 main_oxuva.py:117] INFO     Epoch0 [10/42] Loss = 0.48345202(0.88980879) T=0.88  LR=0.000200
+[2019-11-04 09:22:39 main_oxuva.py:117] INFO     Epoch0 [11/42] Loss = 0.57084179(0.86322821) T=0.68  LR=0.000200
+[2019-11-04 09:22:39 main_oxuva.py:117] INFO     Epoch0 [12/42] Loss = 0.50620610(0.83576497) T=0.64  LR=0.000200
+[2019-11-04 09:22:40 main_oxuva.py:117] INFO     Epoch0 [13/42] Loss = 0.40290901(0.80484669) T=0.62  LR=0.000200
+[2019-11-04 09:22:40 main_oxuva.py:117] INFO     Epoch0 [14/42] Loss = 0.71857774(0.79909542) T=0.58  LR=0.000200
+[2019-11-04 09:22:41 main_oxuva.py:117] INFO     Epoch0 [15/42] Loss = 0.50860256(0.78093962) T=0.61  LR=0.000200
+[2019-11-04 09:22:42 main_oxuva.py:117] INFO     Epoch0 [16/42] Loss = 0.54583985(0.76711022) T=0.63  LR=0.000200
+[2019-11-04 09:22:42 main_oxuva.py:117] INFO     Epoch0 [17/42] Loss = 0.52741468(0.75379380) T=0.61  LR=0.000200
+[2019-11-04 09:22:43 main_oxuva.py:117] INFO     Epoch0 [18/42] Loss = 0.54216862(0.74265563) T=0.63  LR=0.000200
+[2019-11-04 09:22:44 main_oxuva.py:117] INFO     Epoch0 [19/42] Loss = 0.63389629(0.73721767) T=0.60  LR=0.000200
+[2019-11-04 09:22:44 main_oxuva.py:117] INFO     Epoch0 [20/42] Loss = 0.50509107(0.72616402) T=0.62  LR=0.000200
+[2019-11-04 09:22:45 main_oxuva.py:117] INFO     Epoch0 [21/42] Loss = 0.67772025(0.72396203) T=0.64  LR=0.000200
+[2019-11-04 09:23:17 main_oxuva.py:50] INFO     bsize: 6
+[2019-11-04 09:23:17 main_oxuva.py:50] INFO     csvpath: /home/priya/code/datas/rope.csv
+[2019-11-04 09:23:17 main_oxuva.py:50] INFO     datapath: /home/priya/code/data_volume/corrflow/rope_dset
+[2019-11-04 09:23:17 main_oxuva.py:50] INFO     epochs: 10
+[2019-11-04 09:23:17 main_oxuva.py:50] INFO     gpu: 4,5,6
+[2019-11-04 09:23:17 main_oxuva.py:50] INFO     lr: 0.0002
+[2019-11-04 09:23:17 main_oxuva.py:50] INFO     resume: None
+[2019-11-04 09:23:17 main_oxuva.py:50] INFO     savepath: results/test
+[2019-11-04 09:23:17 main_oxuva.py:50] INFO     worker: 8

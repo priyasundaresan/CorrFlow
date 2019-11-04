@@ -1,0 +1,3 @@
+[2019-10-31 00:10:50 test.py:23] INFO     datapath: None
+[2019-10-31 00:10:50 test.py:23] INFO     resume: None
+[2019-10-31 00:10:50 test.py:23] INFO     savepath: results/test

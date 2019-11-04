@@ -26,6 +26,7 @@ parser.add_argument('--savepath', type=str, default='results/test',
                     help='Path for checkpoints and logs')
 parser.add_argument('--resume', type=str, default=None,
                     help='Checkpoint file to resume')
+parser.add_argument('--gpu', type=str, default=0, help='GPUs to use')
 
 # Training options
 parser.add_argument('--epochs', type=int, default=10,
@@ -40,6 +41,8 @@ parser.add_argument('--worker', type=int, default=8,
 args = parser.parse_args()
 
 def main():
+
+    os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
     if not os.path.isdir(args.savepath):
         os.makedirs(args.savepath)
     log = logger.setup_logger(args.savepath + '/training.log')
@@ -91,11 +94,11 @@ def train(dataloader, model, optimizer, log, epoch):
 
         images_rgb = [r.cuda() for r in images_rgb]
         images_quantized = [q.cuda() for q in images_quantized]
-        if not args.fullcolor:
+        #if not args.fullcolor:
+        if True:
             model.module.dropout2d(images_rgb)
 
         optimizer.zero_grad()
-
 
         l_sim = compute_ls(model, images_rgb, images_quantized, b_i, epoch, n_b)
         l_long = compute_ll(model, images_rgb, images_quantized)
@@ -106,17 +109,17 @@ def train(dataloader, model, optimizer, log, epoch):
         optimizer.step()
         _loss.update(sum_loss.item())
 
-        info = 'Loss = {:.3f}({:.3f})'.format(_loss.val, _loss.avg)
+        info = 'Loss = {:.6f}({:.6f})'.format(_loss.val, _loss.avg)
         b_t = time.perf_counter() - b_s
         for param_group in optimizer.param_groups:
             lr_now = param_group['lr']
         log.info('Epoch{} [{}/{}] {} T={:.2f}  LR={:.6f}'.format(
             epoch, b_i, n_b, info, b_t, lr_now))
 
-        if b_i > 0 and (b_i * args.bsize) % 10000 < args.bsize:
-
+        #if b_i > 0 and (b_i * args.bsize) % 10000 < args.bsize:
+        if b_i == 0:
                 log.info("Saving new checkpoint.")
-                savefilename = args.savepath + '/checkpoint.tar'
+                savefilename = args.savepath + '/checkpoint_epoch%d.tar' % (epoch)
                 torch.save({
                     'epoch': epoch,
                     'state_dict': model.state_dict(),
@@ -127,7 +130,7 @@ def train(dataloader, model, optimizer, log, epoch):
 def compute_ls(model, image_rgb, image_q, bi, epoch, n_b):
     eps_s, eps_e = 0.9, 0.6
     b, c, h, w = image_rgb[0].size()
-
+    
     # Loss similarity
     l_sim = 0
 

@@ -55,7 +55,8 @@ class myImageFloder(data.Dataset):
         self.filepath = filepath
         self.training = training
         self.p_2 = 0.1             # probability of random perturbation
-        self.centroids = np.load('datas/centroids/centroids_16k_kinetics_10000samples.npy')
+        #self.centroids = np.load('datas/centroids/centroids_16k_kinetics_10000samples.npy')
+        self.centroids = np.load('datas/centroids/rope_centroids.npy')
 
     def __getitem__(self, index):
         refs = self.refs[index]

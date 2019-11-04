@@ -29,7 +29,9 @@ def dataloader(csv_path="oxuva.csv"):
             frame_indices = frame_indices[:-batch_mod]
         frame_indices_batches = np.split(frame_indices, total_batch)
         for batches in frame_indices_batches:
-            ref_images = [os.path.join(frame_all[index], '{:06d}.jpeg'.format(frame))
+            #ref_images = [os.path.join(frame_all[index], '{:06d}.jpeg'.format(frame))
+            #              for frame in batches]
+            ref_images = [os.path.join(frame_all[index], '{:06d}.jpg'.format(frame))
                           for frame in batches]
             refs_images.append(ref_images)
 

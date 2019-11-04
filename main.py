@@ -89,6 +89,7 @@ def train(dataloader, model, optimizer, log, epoch):
         adjust_lr(optimizer, epoch, b_i, n_b)
 
         images_rgb = [r.cuda() for r in images_rgb]
+	print(images_rgb)
         images_quantized = [q.cuda() for q in images_quantized]
         model.module.dropout2d(images_rgb)
 
