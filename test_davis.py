@@ -153,8 +153,7 @@ params['sideEdge'] = state['cropSize2']
 
 
 # Use CUDA
-#os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu_id
-os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
+os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu_id
 use_cuda = torch.cuda.is_available()
 
 print(args.gpu_id)

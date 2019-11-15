@@ -119,7 +119,7 @@ def train(dataloader, model, optimizer, log, epoch):
         #if b_i > 0 and (b_i * args.bsize) % 10000 < args.bsize:
         if b_i == 0:
                 log.info("Saving new checkpoint.")
-                savefilename = args.savepath + '/checkpoint_epoch%d.tar' % (epoch)
+                savefilename = args.savepath + '/checkpoint_epoch%d_resumed.tar' % (epoch + 10)
                 torch.save({
                     'epoch': epoch,
                     'state_dict': model.state_dict(),

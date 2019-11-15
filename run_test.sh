@@ -1,9 +1,9 @@
 #!/bin/bash
 
 python3 test_davis.py \
---evaluate --cropSize 320 --cropSize2 80 --gpu-id -1 --topk_vis 5 \
+--evaluate --cropSize 320 --cropSize2 80 --gpu-id 3 --topk_vis 5 \
 --save_path results/davis_results/ \
---resume data_volume/corrflow/rope_model/checkpoint_epoch9.tar \
+--resume data_volume/corrflow/rope_model/checkpoint_epoch29_resumed.tar \
 #--evaluate --cropSize 320 --cropSize2 80 --gpu-id 0,1,2,3 --topk_vis 5 \
 #--resume data_volume/corrflow/oxuva_ckpt_saved/oxuva_v2.tar \
 
